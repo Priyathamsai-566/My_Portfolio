@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Projects by UPS.">
+    <title>Projects | U PRIYATHAM SAI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">UPS</span> U PRIYATHAM SAI</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">☰</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a class="nav-cta" href="contact.html">Let’s connect</a>
+      </nav>
+    </header>
+    <main id="main" class="wrap">
+      <section class="page-hero">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h1>Projects</h1>
+        <p class="lead">A collection of projects exploring software development and practical applications of technology.</p>
+      </section>
+      <section class="project-tools" aria-label="Project filters">
+        <div class="filter-row" role="group" aria-label="Filter projects by category">
+          <button class="filter-button active" data-filter="all" aria-pressed="true">All projects</button>
+          <button class="filter-button" data-filter="web" aria-pressed="false">Web development</button>
+          <button class="filter-button" data-filter="cloud" aria-pressed="false">cloud</button>
+          <button class="filter-button" data-filter="other" aria-pressed="false">Other</button>
+        </div>
+        <label class="search-label">Search projects
+          <span class="search-box"><input id="project-search" type="search" placeholder="Search title or technology"><button id="clear-search" type="button" aria-label="Clear search">×</button></span>
+        </label>
+      </section>
+      <p id="project-count" class="muted" aria-live="polite"></p>
+      <section class="project-grid" id="project-grid" aria-label="Projects">
+        <article class="project-card"
+          data-category="other"
+          data-search="accounting automation pdf excel tally converter bank statements xml node.js tesseract ocr html css javascript">
+          <div class="project-art art-blue"><span>01 / ACCOUNTING</span><b>💰</b></div>
+          <div class="project-content">
+            <p class="card-kicker">AUTOMATION PIPELINE · IN PROGRESS</p>
+            <h2>PDF/Excel to Tally Converter</h2>
+            <p>Chartered accountants often enter bank statement data into Tally Prime manually. This automation pipeline converts bank statements into Tally-compatible XML to reduce repetitive work, save time, and improve productivity.</p>
+            <div class="tag-row"><span>Node.js</span><span>Tesseract OCR</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <button class="text-link detail-button"
+              data-title="PDF/Excel to Tally Converter"
+              data-description="Chartered accountants often enter bank statement data into Tally Prime manually. This automation pipeline converts bank statements into Tally-compatible XML to reduce repetitive work, save time, and improve productivity."
+              data-role="creating the automation pipeline and integrating the OCR engine and the backend Node js frame work handling."
+              data-status="In progress">View details ↗</button>
+          </div>
+        </article>
+        <article class="project-card"
+          data-category="web"
+          data-search="hostel complaint management system student complaints tracking status react node.js quick sort mysql workbench">
+          <div class="project-art art-mint"><span>02 / WEB</span><b>🏨</b></div>
+          <div class="project-content">
+            <p class="card-kicker">WEB APPLICATION · IMPLEMENTED</p>
+            <h2>Hostel Complaint Management System</h2>
+            <p>This web application lets students submit and track complaints. Hostel staff can review issues, sort them, update their status, and identify complaints that are taking too long to resolve.</p>
+            <div class="tag-row"><span>React</span><span>Node.js</span><span>Quick Sort</span><span>MySQL Workbench</span></div>
+            <button class="text-link detail-button"
+              data-title="Hostel Complaint Management System"
+              data-description="This web application lets students submit and track complaints. Hostel staff can review issues, sort them, update their status, and identify complaints that are taking too long to resolve."
+              data-role="backend Node js handling and database handling."
+              data-status="Implemented">View details ↗</button>
+          </div>
+        </article>
+        <article class="project-card"
+          data-category="cloud"
+          data-search="cloud campus lost found tracker aws s3 dynamodb elastic beanstalk node.js html css javascript">
+          <div class="project-art art-lilac"><span>03 / CLOUD</span><b>☁</b></div>
+          <div class="project-content">
+            <p class="card-kicker">CLOUD APPLICATION · IN PROGRESS</p>
+            <h2>Campus Lost &amp; Found Tracker</h2>
+            <p>This cloud-based tracker lets students post lost or found item reports and browse existing reports to help reunite people with their belongings.</p>
+            <div class="tag-row"><span>AWS S3</span><span>DynamoDB</span><span>Elastic Beanstalk</span><span>Node.js</span><span>HTML · CSS · JS</span></div>
+            <button class="text-link detail-button"
+              data-title="Campus Lost &amp; Found Tracker"
+              data-description="This cloud-based tracker lets students post lost or found item reports and browse existing reports to help reunite people with their belongings."
+              data-role="Frontend design & development & testing(integration testing and end-to-end testing)."
+              data-status="In progress">View details ↗</button>
+          </div>
+        </article>
+		<article class="project-card"
+		  data-category="other"
+		  data-search="secure e voting blockchain ledger voting election voter verification">
+		  <div class="project-art art-blue"><span>04 / BLOCKCHAIN</span><b>🔐</b></div>
+		  <div class="project-content">
+			<p class="card-kicker">BLOCKCHAIN · IN PROGRESS</p>
+			<h2>Secure E-Voting System</h2>
+			<p>A blockchain-based e-voting system designed to record votes on a ledger and restrict voting to eligible users. </p>
+			<div class="tag-row"><span>Blockchain</span><span>Distributed ledger</span><span>HTML</span><span>CSS</span><span>Javascript</span></div>
+			<button class="text-link detail-button"
+			  data-title="Secure E-Voting System"
+			  data-description="A blockchain-based e-voting system designed to record votes on a ledger and restrict voting to eligible users.."
+			  data-role="Frontend development & testing."
+			  data-status="In progress">View details ↗</button>
+		  </div>
+		</article>
+
+		<article class="project-card"
+		  data-category="web"
+		  data-search="loan recommendation system web application user information loan suggestions">
+		  <div class="project-art art-mint"><span>05 / WEB APPLICATION</span><b>🏦</b></div>
+		  <div class="project-content">
+			<p class="card-kicker">WEB APPLICATION · IN PROGRESS</p>
+			<h2>Loan Recommendation System</h2>
+			<p>A web application that collects information from users and suggests loan options based on the criteria supported by the application.</p>
+			<div class="tag-row"><span>Maven Java</span><span>Jenkins</span><span>SonarQube</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+			<button class="text-link detail-button"
+			  data-title="Loan Recommendation System"
+			  data-description="A web application that collects information from users and suggests loan options based on the criteria supported by the application."
+			  data-role="The complete application i.e the pipeline creation, development, building, testing."
+			  data-status="In progress">View details ↗</button>
+		  </div>
+		</article>
+      </section>
+      <p class="empty-state" id="empty-state" hidden>No projects found. Try another search term or category.</p>
+      <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title">
+        <form method="dialog">
+          <button class="dialog-close" aria-label="Close project details">×</button>
+        </form>
+        <p class="eyebrow">PROJECT DETAILS</p>
+        <h2 id="dialog-title"></h2>
+        <p id="dialog-description"></p>
+        <dl class="detail-list">
+          <div>
+            <dt>My contribution</dt>
+            <dd id="dialog-role"></dd>
+          </div>
+          <div>
+            <dt>Status</dt>
+            <dd id="dialog-status"></dd>
+          </div>
+        </dl>
+        
+    </main>
+    <footer class="site-footer">
+      <a class="brand" href="index.html"><span class="brand-mark">UPS</span> U PRIYATHAM SAI</a>
+      <span>&copy;  All rights reserved to Uddandi Priyatham sai</span>
+      <a href="contact.html">Contact ↗</a>
+    </footer>
+  </body>
+</html>
